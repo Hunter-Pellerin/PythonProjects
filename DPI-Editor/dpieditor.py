@@ -4,11 +4,13 @@ import glob, os, sys
 sourceFolderName = "source"
 outputFolderName = "resized_imgs"
 
+# ## ## # CONFIG # ## ## #
 sizeMultiplier = 1 # change output resolution
 outputDPI = 72
 
 cwd = os.getcwd()
 IMG_DIR= os.path.join(cwd, sourceFolderName)
+# ## # ## # ## # ## # ## #
 
 def manageDirectory():
     try:
